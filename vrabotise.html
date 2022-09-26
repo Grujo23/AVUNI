@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VRABOTISE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js' integrity='sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==' crossorigin='anonymous'></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js' integrity='sha512-Vp2UimVVK8kNOjXqqj/B0Fyo96SDPj9OCSm1vmYSrLYF3mwIOBXh/yRZDVKo8NemQn1GUjjK0vFJuCSCkYai/A==' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="widgets">
+    <a href="https://www.facebook.com/petar.gruevski" target="_blank">
+        <img src="facebook.png" alt=""
+        width="18">
+    </a>
+
+    <a href="https://www.instagram.com/petarg23/" target="_blank">
+        <img src="instagram.png" alt=""
+    width="18">
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCK0Xkax_nFmYvfEfvs1IZ3w" target="_blank">
+        <img src="youtube.png" alt=""
+    width="20">
+    </a>
+        </div>
+</div>
+<div class="navigationbar">
+
+<div class="nav-levo">
+
+</div>
+<div class="nav-desno"></div>
+<div class="nav-center">
+    
+    <div class="logo">
+    <img src="logo2.jpg" 
+    width="310"
+    height="auto" /></div>
+    <div class="tekst">
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="nav-links">
+<hr>
+<div class="navlinks">
+  <ul>
+        <li><a href="main.html">Почетна</a></li>
+        <li><a href="oglasi.html">Огласи</a></li>
+        <li><a href="vrabotise.html">Вработи СЕ!</a></li>
+        <li><a href="kontakt.html">Контакт</a></li>
+        
+        
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search this website">
+        </div>
+    </ul>
+
+
+    
+</div>
+<hr>
+
+</div>
+<div class="nav-bar"></div>
+
+<div class="levo">
+
+    
+</div>
+
+<div class="centar-vrabotise">
+    
+    <div class="container">
+    
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+
+<legend>ВРАБОТИ СЕ СЕГА !</legend>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Име</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="Внеси име." class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Презиме</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input id="lastname" name="last_name" placeholder="Внеси презиме." class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+       <div class="form-group">
+  <label class="col-md-4 control-label">Електронска пошта</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="Внеси Електронска пошта" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Tелефонски број #</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="Внеси телефонски број" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+
+      
+<div class="form-group">
+  <label class="col-md-4 control-label">Адреса на живеење</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Внеси адреса на живеење." class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+
+   
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Град</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Избери град</option>
+      <option value="01">Aerodrom </option>
+        <option value="02">Aračinovo </option>
+        <option value="03">Berovo </option>
+        <option value="04">Bitola </option>
+        <option value="05">Bogdanci </option>
+        <option value="06">Bogovinje </option>
+        <option value="07">Bosilovo </option>
+        <option value="08">Brvenica </option>
+        <option value="09">Butel </option>
+        <option value="79">Čair </option>
+        <option value="80">Čaška </option>
+        <option value="77">Centar </option>
+        <option value="78">Centar Župa </option>
+        <option value="81">Češinovo-Obleševo </option>
+        <option value="82">Čučer-Sandevo </option>
+        <option value="22">Debarca </option>
+        <option value="23">Delčevo </option>
+        <option value="25">Demir Hisar </option>
+        <option value="24">Demir Kapija </option>
+        <option value="26">Dojran </option>
+        <option value="27">Dolneni </option>
+        <option value="28">Drugovo </option>
+        <option value="17">Gazi Baba </option>
+        <option value="18">Gevgelija </option>
+        <option value="29">Gjorče Petrov </option>
+        <option value="19">Gostivar </option>
+        <option value="20">Gradsko </option>
+        <option value="85">Greater Skopje</option>
+        <option value="34">Ilinden </option>
+        <option value="35">Jegunovce </option>
+        <option value="37">Karbinci</option>
+        <option value="38">Karpoš </option>
+        <option value="36">Kavadarci </option>
+        <option value="40">Kičevo </option>
+        <option value="39">Kisela Voda </option>
+        <option value="42">Kočani </option>
+        <option value="41">Konče </option>
+        <option value="43">Kratovo </option>
+        <option value="44">Kriva Palanka </option>
+        <option value="45">Krivogaštani </option>
+        <option value="46">Kruševo </option>
+        <option value="47">Kumanovo </option>
+        <option value="48">Lipkovo </option>
+        <option value="49">Lozovo </option>
+        <option value="51">Makedonska Kamenica </option>
+        <option value="52">Makedonski Brod </option>
+        <option value="50">Mavrovo and Rostuša </option>
+        <option value="53">Mogila </option>
+        <option value="54">Negotino </option>
+        <option value="55">Novaci </option>
+        <option value="56">Novo Selo </option>
+        <option value="58">Ohrid </option>
+        <option value="57">Oslomej </option>
+        <option value="60">Pehčevo </option>
+        <option value="59">Petrovec </option>
+        <option value="61">Plasnica </option>
+        <option value="62">Prilep </option>
+        <option value="63">Probištip </option>
+        <option value="64">Radoviš </option>
+        <option value="65">Rankovce </option>
+        <option value="66">Resen </option>
+        <option value="67">Rosoman </option>
+        <option value="68">Saraj </option>
+        <option value="70">Sopište </option>
+        <option value="71">Staro Nagoričane </option>
+        <option value="83">Štip </option>
+        <option value="72">Struga </option>
+        <option value="73">Strumica </option>
+        <option value="74">Studeničani </option>
+        <option value="84">Šuto Orizari </option>
+        <option value="69">Sveti Nikole </option>
+        <option value="75">Tearce </option>
+        <option value="76">Tetovo</option>
+        <option value="10">Valandovo </option>
+        <option value="11">Vasilevo</option>
+        <option value="13">Veles </option>
+        <option value="12">Vevčani </option>
+        <option value="14">Vinica </option>
+        <option value="15">Vraneštica </option>
+        <option value="16">Vrapčište </option>
+        <option value="31">Zajas </option>
+        <option value="32">Zelenikovo </option>
+        <option value="30">Želino </option>
+        <option value="30">Драчево </option>
+        <option value="30">Пинтија </option>
+    </select>
+  </div>
+</div>
+</div>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Поштенски број</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="zip" placeholder="Внеси поштенски број" class="form-control"  type="text">
+    </div>
+</div>
+</div>
+
+
+ 
+<div class="form-group">
+    <label class="col-md-4 control-label">Индустрија</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="city" placeholder="Индустрија." class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+
+
+   
+ 
+<div class="form-group">
+    <label class="col-md-4 control-label">CV</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            
+          </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+<div class="form-group">
+  <label class="col-md-4 control-label">Напиши нешто за себе(100-250 зборови)</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <textarea class="form-control" name="comment" placeholder="Текст."></textarea>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button onclick="javascript: window.location.href='mailto:petargruevski23@gmail.com'" id="submit" type="submit" class="btn btn-warning" >Испрати <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+    </div>
+
+    
+
+</div>
+
+<div class="desno"></div>
+
+
+<div id="footer">2022 Агенција за вработување - УНИ © - Сите права се задржани.
+</div>  
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyB0kI8FCj-d2leWeHwOTQm357Jl6ntjr3E",
+      authDomain: "avuni-9a4fc.firebaseapp.com",
+      projectId: "avuni-9a4fc",
+      storageBucket: "avuni-9a4fc.appspot.com",
+      messagingSenderId: "1085201956358",
+      appId: "1:1085201956358:web:bc91c57f3f16afe4d64d87"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+
+    <script src="vrabotise.js">
+</script>
+
+</body>
+</html>

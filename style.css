@@ -1,0 +1,233 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+}
+
+
+.navigationbar{
+align-items: center;
+background-color: white;
+}
+.top-bar{
+background-color: #01aded;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+gap: 100px;
+
+}
+.widgets{
+    display: flex;
+    gap: 12px;
+}
+.nav-levo{
+    float: left;
+    width: 23.33%;
+}
+.nav-desno{
+    float: right;
+    width: 23.33%;
+}
+
+.nav-center{
+  margin: auto;
+  width: 53.33%;
+  border: 3px solid white;
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navlinks{
+    background-color: #01aded;
+    
+}
+.navlinks li{
+    
+    margin: 13px 20px;
+
+}
+.navlinks li:hover{
+    font-size: 20px;
+    opacity: 0.7;
+    background-color: white;
+    transition:all 0.3s ease;
+    transition: all;
+}
+.navlinks ul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navlinks li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.navlinks input{
+    border: 2px solid black;
+    padding: 3px 17px;
+    width: 129px;
+}
+.search{
+    color: gray;
+    padding: 12px 15px;
+}
+
+.nav-links{
+    background-color: white;
+    padding: 0px;
+    
+}
+.nav-bar{
+    width: 53.33%;
+}
+.tekst{
+    float: right;
+}
+
+.centar{
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 53.33%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    line-height: 2.5;
+    text-align: center;
+    
+}
+.levo{
+    float: left;
+    width: 23.33%;
+}   
+
+.desno{
+    float: right;
+    width: 23.33%;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;  
+    background: #01aded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 40%;
+    margin-bottom: 40px;
+    
+}
+#success_message{ display: none;}
+
+.container2 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.centarkontakt{
+    float: left;
+    margin: 10px;
+    width: 600px;
+    margin-left: 300px;    
+}
+.desnokontakt{
+    float: right;
+    margin: 10px;
+    margin-right: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: blue;
+    text-align: center;
+}
+.centaroglasi{
+    float: left;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.cardscont{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.cards{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px; 
+    
+}
+.cardscont1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.cardscont2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.cards img{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+}
+.textoglasi{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.cards:hover{
+   border-radius: 20px; 
+   border:1px solid black;
+}
