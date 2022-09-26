@@ -78,7 +78,7 @@ $(document).ready(function() {
                         message: 'Ве молиме внесете поштенски број'
                     },
                     zipCode: {
-                        country: 'MKD',
+                        country: '',
                         message: 'Ве молиме внесете валиден поштенски број'
                     }
                 }
