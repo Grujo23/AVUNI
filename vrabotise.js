@@ -77,10 +77,10 @@ $(document).ready(function() {
                     notEmpty: {
                         message: 'Ве молиме внесете поштенски број'
                     },
-//                     zipCode: {
-//                         country: '',
-//                         message: 'Ве молиме внесете валиден поштенски број'
-//                     }
+                    // zipCode: {
+                    //     country: '',
+                    //     message: 'Ве молиме внесете валиден поштенски број'
+                    // }
                 }
             },
             comment: {
@@ -115,8 +115,7 @@ $(document).ready(function() {
                 console.log(result);
             }, 'json');
         });
-});const cards=document.querySelectorAll('.cards');
-cards.forEach(cards=>cards.addEventListener('click',gotolink));
+})
 
 function gotolink(){
    window.location.href="vrabotise.html"

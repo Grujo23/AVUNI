@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <div class="top-bar">
+    <div class="top-bar ">
         <div class="widgets">
     <a href="https://www.facebook.com/petar.gruevski" target="_blank">
         <img src="facebook.png" alt=""
@@ -84,21 +84,20 @@
     
     <div class="container">
     
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
 <fieldset>
 
 
 <legend>ВРАБОТИ СЕ СЕГА !</legend>
 
-
 <form action="https://formspree.io/f/xpzndolk"
-method="POST">
+method="POST" enctype="multipart/form-data">
+
 <div class="form-group">
-  <label class="col-md-4 control-label">Име</label>  
+  <label for="name" class="col-md-4 control-label">Име</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="Внеси име." class="form-control"  type="text">
+  <input  name="Име" placeholder="Внеси име." class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -106,11 +105,11 @@ method="POST">
 
 
 <div class="form-group">
-  <label class="col-md-4 control-label" >Презиме</label> 
+  <label for="last_name" class="col-md-4 control-label" >Презиме</label> 
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input id="lastname" name="last_name" placeholder="Внеси презиме." class="form-control"  type="text">
+  <input id="Презиме" name="last_name" placeholder="Внеси презиме." class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -120,7 +119,7 @@ method="POST">
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="Внеси Електронска пошта" class="form-control"  type="text">
+  <input name="Eлектронска пошта" placeholder="Внеси Електронска пошта" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -132,7 +131,7 @@ method="POST">
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="Внеси телефонски број" class="form-control" type="text">
+  <input name="Телефонски број" placeholder="Внеси телефонски број" class="form-control" type="text">
     </div>
   </div>
 </div>
@@ -144,7 +143,7 @@ method="POST">
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="address" placeholder="Внеси адреса на живеење." class="form-control" type="text">
+  <input name="Адреса на живеење" placeholder="Внеси адреса на живеење." class="form-control" type="text">
     </div>
   </div>
 </div>
@@ -156,94 +155,95 @@ method="POST">
     <div class="col-md-4 selectContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-    <select name="state" class="form-control selectpicker" >
-      <option value=" " >Избери град</option>
-      <option value="01">Aerodrom </option>
-        <option value="02">Aračinovo </option>
-        <option value="03">Berovo </option>
-        <option value="04">Bitola </option>
-        <option value="05">Bogdanci </option>
-        <option value="06">Bogovinje </option>
-        <option value="07">Bosilovo </option>
-        <option value="08">Brvenica </option>
-        <option value="09">Butel </option>
-        <option value="79">Čair </option>
-        <option value="80">Čaška </option>
-        <option value="77">Centar </option>
-        <option value="78">Centar Župa </option>
-        <option value="81">Češinovo-Obleševo </option>
-        <option value="82">Čučer-Sandevo </option>
-        <option value="22">Debarca </option>
-        <option value="23">Delčevo </option>
-        <option value="25">Demir Hisar </option>
-        <option value="24">Demir Kapija </option>
-        <option value="26">Dojran </option>
-        <option value="27">Dolneni </option>
-        <option value="28">Drugovo </option>
-        <option value="17">Gazi Baba </option>
-        <option value="18">Gevgelija </option>
-        <option value="29">Gjorče Petrov </option>
-        <option value="19">Gostivar </option>
-        <option value="20">Gradsko </option>
-        <option value="85">Greater Skopje</option>
-        <option value="34">Ilinden </option>
-        <option value="35">Jegunovce </option>
-        <option value="37">Karbinci</option>
-        <option value="38">Karpoš </option>
-        <option value="36">Kavadarci </option>
-        <option value="40">Kičevo </option>
-        <option value="39">Kisela Voda </option>
-        <option value="42">Kočani </option>
-        <option value="41">Konče </option>
-        <option value="43">Kratovo </option>
-        <option value="44">Kriva Palanka </option>
-        <option value="45">Krivogaštani </option>
-        <option value="46">Kruševo </option>
-        <option value="47">Kumanovo </option>
-        <option value="48">Lipkovo </option>
-        <option value="49">Lozovo </option>
-        <option value="51">Makedonska Kamenica </option>
-        <option value="52">Makedonski Brod </option>
-        <option value="50">Mavrovo and Rostuša </option>
-        <option value="53">Mogila </option>
-        <option value="54">Negotino </option>
-        <option value="55">Novaci </option>
-        <option value="56">Novo Selo </option>
-        <option value="58">Ohrid </option>
-        <option value="57">Oslomej </option>
-        <option value="60">Pehčevo </option>
-        <option value="59">Petrovec </option>
-        <option value="61">Plasnica </option>
-        <option value="62">Prilep </option>
-        <option value="63">Probištip </option>
-        <option value="64">Radoviš </option>
-        <option value="65">Rankovce </option>
-        <option value="66">Resen </option>
-        <option value="67">Rosoman </option>
-        <option value="68">Saraj </option>
-        <option value="70">Sopište </option>
-        <option value="71">Staro Nagoričane </option>
-        <option value="83">Štip </option>
-        <option value="72">Struga </option>
-        <option value="73">Strumica </option>
-        <option value="74">Studeničani </option>
-        <option value="84">Šuto Orizari </option>
-        <option value="69">Sveti Nikole </option>
-        <option value="75">Tearce </option>
-        <option value="76">Tetovo</option>
-        <option value="10">Valandovo </option>
-        <option value="11">Vasilevo</option>
-        <option value="13">Veles </option>
-        <option value="12">Vevčani </option>
-        <option value="14">Vinica </option>
-        <option value="15">Vraneštica </option>
-        <option value="16">Vrapčište </option>
-        <option value="31">Zajas </option>
-        <option value="32">Zelenikovo </option>
-        <option value="30">Želino </option>
-        <option value="30">Драчево </option>
-        <option value="30">Пинтија </option>
+    <label for="Град"> <select name="city" class="form-control selectpicker" >
+        <option>Избери град</option>
+        <option>Aerodrom </option>
+        <option>Aračinovo </option>
+        <option>Berovo </option>
+        <option>Bitola </option>
+        <option>Bogdanci </option>
+        <option>Bogovinje </option>
+        <option>Bosilovo </option>
+        <option>Brvenica </option>
+        <option>Butel </option>
+        <option>Čair </option>
+        <option>Čaška </option>
+        <option>Centar </option>
+        <option>Centar Župa </option>
+        <option>Češinovo-Obleševo </option>
+        <option>Čučer-Sandevo </option>
+        <option>Debarca </option>
+        <option>Delčevo </option>
+        <option>Demir Hisar </option>
+        <option>Demir Kapija </option>
+        <option>Dojran </option>
+        <option>Dolneni </option>
+        <option>Drugovo </option>
+        <option>Gazi Baba </option>
+        <option>Gevgelija </option>
+        <option>Gjorče Petrov </option>
+        <option>Gostivar </option>
+        <option>Gradsko </option>
+        <option>Greater Skopje</option>
+        <option>Ilinden </option>
+        <option>Jegunovce </option>
+        <option>Karbinci</option>
+        <option>Karpoš </option>
+        <option>Kavadarci </option>
+        <option>Kičevo </option>
+        <option>Kisela Voda </option>
+        <option>Kočani </option>
+        <option>Konče </option>
+        <option>Kratovo </option>
+        <option>Kriva Palanka </option>
+        <option>Krivogaštani </option>
+        <option>Kruševo </option>
+        <option>Kumanovo </option>
+        <option>Lipkovo </option>
+        <option>Lozovo </option>
+        <option>Makedonska Kamenica </option>
+        <option>Makedonski Brod </option>
+        <option>Mavrovo and Rostuša </option>
+        <option>Mogila </option>
+        <option>Negotino </option>
+        <option>Novaci </option>
+        <option>Novo Selo </option>
+        <option>Ohrid </option>
+        <option>Oslomej </option>
+        <option>Pehčevo </option>
+        <option>Petrovec </option>
+        <option>Plasnica </option>
+        <option>Prilep </option>
+        <option>Probištip </option>
+        <option>Radoviš </option>
+        <option>Rankovce </option>
+        <option>Resen </option>
+        <option>Rosoman </option>
+        <option>Saraj </option>
+        <option>Sopište </option>
+        <option>Staro Nagoričane </option>
+        <option>Štip </option>
+        <option>Struga </option>
+        <option>Strumica </option>
+        <option>Studeničani </option>
+        <option>Šuto Orizari </option>
+        <option>Sveti Nikole </option>
+        <option>Tearce </option>
+        <option>Tetovo</option>
+        <option>Valandovo </option>
+        <option>Vasilevo</option>
+        <option>Veles </option>
+        <option>Vevčani </option>
+        <option>Vinica </option>
+        <option>Vraneštica </option>
+        <option>Vrapčište </option>
+        <option>Zajas </option>
+        <option>Zelenikovo </option>
+        <option>Želino </option>
+        <option>Драчево </option>
+        <option>Пинтија </option>
     </select>
+  </label>
   </div>
 </div>
 </div>
@@ -255,7 +255,7 @@ method="POST">
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="zip" placeholder="Внеси поштенски број" class="form-control"  type="text">
+  <input name="Поштенски" placeholder="Внеси поштенски број" class="form-control"  type="text">
     </div>
 </div>
 </div>
@@ -267,7 +267,7 @@ method="POST">
       <div class="col-md-4 inputGroupContainer">
       <div class="input-group">
           <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-    <input name="city" placeholder="Индустрија." class="form-control"  type="text">
+    <input name="Индустрија" placeholder="Индустрија." class="form-control"  type="text">
       </div>
     </div>
   </div>
@@ -275,22 +275,7 @@ method="POST">
 
    
  
-<div class="form-group">
-    <label class="col-md-4 control-label">CV</label>  
-      <div class="col-md-4 inputGroupContainer">
-      <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-          <form action="/action_page.php">
-            <input type="file" id="myFile" name="filename">
-            
-          </form>
-      </div>
-    </div>
-  </div>
 
-
-
-  
 <div class="form-group">
   <label class="col-md-4 control-label">Напиши нешто за себе(100-250 зборови)</label>
     <div class="col-md-4 inputGroupContainer">
@@ -300,20 +285,16 @@ method="POST">
   </div>
   </div>
 </div>
-</form>
-
-
-
 
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4">
-    <button onclick="javascript: window.location.href='mailto:petargruevski23@gmail.com'" id="submit" type="submit" class="btn btn-warning" >Испрати <span class="glyphicon glyphicon-send"></span></button>
+    <button id="submit" type="submit" class="btn btn-warning" >Испрати </button>
   </div>
 </div>
+</form>
 
 </fieldset>
-</form>
 </div>
     </div>
 
