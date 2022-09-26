@@ -77,10 +77,10 @@ $(document).ready(function() {
                     notEmpty: {
                         message: 'Ве молиме внесете поштенски број'
                     },
-                    zipCode: {
-                        country: '',
-                        message: 'Ве молиме внесете валиден поштенски број'
-                    }
+//                     zipCode: {
+//                         country: '',
+//                         message: 'Ве молиме внесете валиден поштенски број'
+//                     }
                 }
             },
             comment: {
