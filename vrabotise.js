@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#contact_form').bootstrapValidator({
-        // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+        
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
@@ -65,13 +65,7 @@ $(document).ready(function() {
                     }
                 }
             },
-            state: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please select your state'
-                    }
-                }
-            },
+            
             zip: {
                 validators: {
                     notEmpty: {
@@ -98,7 +92,7 @@ $(document).ready(function() {
             }
         })
         .on('success.form.bv', function(e) {
-            $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
+            $('#success_message').slideDown({ opacity: "show" }, "slow")
                 $('#contact_form').data('bootstrapValidator').resetForm();
 
             
